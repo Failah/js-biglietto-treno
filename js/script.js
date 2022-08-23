@@ -37,6 +37,8 @@ if (!isNaN(km) && !isNaN(age)) {
         ticketPriceCurrent = ticketPrice * 4 / 5;
     } else if (age > 64) {
         ticketPriceCurrent = ticketPrice * 3 / 5;
+    } else {
+        ticketPriceCurrent = ticketPrice;
     }
     document.getElementById("price").innerHTML = ticketPriceCurrent.toFixed(2) + " Euro";
 }
