@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/* contents */
+
+#price_box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: calc(100vw - 60px);
+    height: 200px;
+    background-color: deepskyblue;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+#price_box div:nth-child(1) {
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 80%;
+    height: 50px;
+    color: dimgrey;
+    font-weight: bold;
+    font-size: 1.3rem;
+}

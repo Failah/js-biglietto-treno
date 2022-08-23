@@ -8,11 +8,11 @@ console.log("age", age);
 
 if (!isNaN(km) && !isNaN(age))
     if (age < 18) {
-        document.getElementById("price").innerHTML = ticketPrice * 4 / 5;
+        document.getElementById("price").innerHTML = ticketPrice * 4 / 5 + " Euro";
     } else if (age > 64) {
-        document.getElementById("price").innerHTML = ticketPrice * 3 / 5;
+        document.getElementById("price").innerHTML = ticketPrice * 3 / 5 + " Euro";
     } else {
-        document.getElementById("price").innerHTML = ticketPrice;
+        document.getElementById("price").innerHTML = ticketPrice + " Euro";
     }
 else {
     document.getElementById("price").innerHTML = "Non hai inserito un numero!";
